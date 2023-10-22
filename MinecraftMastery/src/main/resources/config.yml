@@ -1,0 +1,33 @@
+# Minecraft Plugin Configuration
+
+# Messages
+Messages:
+  NoPermission: "&cYou don't have permission to use this command!"
+  GetBlocksPlaced: "&c{target} has placed {blocks_placed} blocks!"
+  GetBlocksBroke: "&c{target} has broke {blocks_broke} blocks!"
+  GetBlocksPlacedSender: "&cYou have placed {blocks_placed} blocks!"
+  GetBlocksBrokeSender: "&cYou have broke {blocks_broke} blocks!"
+  PlayerNotFound: "&cThere is no player with that name!"
+  LinkMessage: "&4Please send the code to the bot in DM''s {code}"
+  Linked_Done: "&cYou have linked to the discord member with the name {discord_name}"
+  unlink: "&cYou are no longer linked to the discord account."
+  forceunlink_to_sender: "&cLinked {target_name} to {target_discord}."
+  forceunlink_to_target: "&cYou have been linked to the discord user with the name {target_discord}."
+
+
+# Leveling Settings
+Leveling:
+  BlocksToBreakLevelUp: 5
+  BlocksPerLevelIncrease: 2
+  BlocksToPlaceLevelUp: 5
+  BlocksPerLevelIncreasePlace: 3
+
+# Events with XP
+Events_With_XP:
+  BlockBreak: true
+  BlockPlace: true
+
+# Player Data (DO NOT EDIT)
+data:
+  players:
+codes: ''

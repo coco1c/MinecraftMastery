@@ -1,0 +1,36 @@
+name: MinecraftMastery
+version: 1.0.0
+main: com.coco.MinecraftMastery
+api-version: '1.17'
+author: coco
+commands:
+  getplayeruuid:
+    description: Get the UUID of a player.
+  blocksplaced:
+    description: View the number of blocks placed.
+  blocksbroke:
+    description: View the number of blocks broken.
+  discord:
+    description: Manage Discord integration settings.
+  broadcastdiscord:
+    description: Broadcast a message to discord
+    aliases:
+      - bcd
+      - broadcd
+      - broadcastd
+      - bcdiscord
+  minecraftmasteryreload:
+    description: Reload Minecraft Mastery plugin.
+    aliases:
+      - mcmasteryreload
+      - mmreload
+      - mreload
+      - mr
+  management:
+    description: Manage server management commands.
+  link:
+    description: Link your account to discord.
+  unlink:
+    description: Unlink your account from discord.
+  forcelink:
+    description: Force link someone

@@ -1,0 +1,13 @@
+# Discord
+Discord:
+  settings:
+    bot_token: <your_token_here>
+    status: ONLINE # Use ONLINE, IDLE, OFFLINE and DND (DND is Do Not Disturb)
+    activity: "Minecraft"
+    enabled: false
+    format_message_discord_to_minecraft: "&4&l<role> &7<name> -> <message>"
+  channels:
+    channel_ID_minecraft_to_discord_on_chat: "your_value_here"
+    channel_ID_discord_to_minecraft_on_chat: "your_value_here"
+Linked_Players_ID:
+Linked_Players:
